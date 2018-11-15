@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Breakeven 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130509
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Find House</title>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Abel|Satisfy' rel='stylesheet' type='text/css' />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<style>
+		/* Makes images fully responsive */
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ------------------- Carousel Styling ------------------- */
+
+.carousel-inner {
+  border-radius: 15px;
+}
+
+.carousel-caption {
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 0 0 10px 25px;
+  color: #fff;
+  text-align: left;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
+  margin: 0;
+  padding: 0 25px 25px 0;
+  text-align: right;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+
+/* ------------------- Section Styling - Not needed for carousel styling ------------------- */
+
+.section-white {
+   padding: 10px 0;
+}
+
+.section-white {
+  background-color: #fff;
+  color: #555;
+}
+
+@media screen and (min-width: 768px) {
+
+  .section-white {
+     padding: 1.5em 0;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .container {
+    max-width: 930px;
+  }
+
+}
+.item {
+    position:relative;
+    padding-top:20px;
+    display:inline-block;
+}
+.notify-badge{
+    position: absolute;
+    right:-20px;
+    top:10px;
+    background:red;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    color:white;
+    padding:5px 10px;
+    font-size:20px;
+}
+		</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1><a href="#">Find House</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li class="current_page_item"><a href="index.html">Accueil</a></li>
+					<li><a href="./pages/apropos.html">A propos</a></li>
+					<li><a href="./pages/services.html">Service</a></li>
+					<li><a href="./pages/inscription.html">Inscription</a></li>
+					<li><a href="./pages/connexion.html">Connexion</a></li>
+					<li><a href="./pages/contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- end #header -->
+	<div id="page">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="margin: 10px;">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+					  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					</ol>
+			  
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+					  <div class="item active">
+						<img src="images/1.jpg" style="width:1000px; height:400px;">
+						<div class="carousel-caption">
+						  <h2>ANNONCE - LOCATION MAISON <small style="color:white">15-11-2018</small></h2>
+						</div>
+					  </div>
+					  <div class="item">
+						<img src="images/2.jpg" alt="..." style="width:1000px; height:400px;">
+						<div class="carousel-caption">
+						  <h2>ANNONCE - LOCATION MAISON <small style="color:white">15-11-2018</small></h2>
+						</div>
+					  </div>
+					  <div class="item">
+						<img src="images/3.jpg" alt="..." style="width:1000px; height:400px;">
+						<div class="carousel-caption">
+						  <h2>ANNONCE - LOCATION MAISON <small style="color:white">15-11-2018</small></h2>
+						</div>
+					  </div>
+					</div>
+			  
+					<!-- Controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+					  <span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+					  <span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+				  </div>
+			  
+		<div id="content">
+			<div class="post">
+				<h2 class="title"><a href="#">Annonces</a></h2>
+				<div class="entry">
+						<!--<p><a href="#"><img src="images/img05.jpg" width="600" height="170" alt="" /></a></p>
+					<p>This is <strong>Breakeven</strong>, a free, fully standards-compliant CSS template designed by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.   The photos in this template are from <a href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :) </p>
+					<p class="links"><a href="#" class="more">Read More</a><a href="#" title="b0x" class="comments">Comments</a></p>-->
+				    <div id="featured-content">
+							<div id="column1">
+								<h2>Maison location</h2>
+								<p><img src="images/4.jpg" width="300" height="150" alt="" /></p>
+								<p>Prix : 400 000fdj - Héron</p>
+								<p>12/11/2018</p>
+								<p class="button"><a href="#">Plus détail</a></p>
+							</div>
+							<div id="column2">
+								<h2>Maison location</h2>
+								<p><img src="images/5.jpg" width="300" height="150" alt="" /></p>
+								<p>Prix : 500 000fdj - Plateau de serpent</p>
+								<p>11/11/2018</p>
+								<p class="button"><a href="#">Plus détail</a></p>
+							</div>	
+					</div>	
+					<div id="featured-content">
+							<div id="column1">
+								<h2>Maison location</h2>
+								<p><img src="images/6.jpg" width="300" height="150" alt="" /></p>
+								<p>Prix : 300 000fdj - Gabode 4</p>
+								<p>12/11/2018</p>
+								<p class="button"><a href="#">Plus détail</a></p>
+							</div>
+							<div id="column2">
+								<h2>Maison location</h2>
+								<p><img src="images/7.jpg" width="300" height="150" alt="" /></p>
+								<p>Prix : 700 000fdj - cité saoudi</p>
+								<p>11/11/2018</p>
+								<p class="button"><a href="#">Plus détail</a></p>
+							</div>	
+					</div>		
+				</div>
+			</div>
+		</div>
+		
+		<!-- end #content -->
+		<div id="sidebar">
+			<h4 style="font-size: 29px;font-weight: inherit;">Annonces récents</h4>
+				<div class="col-sm-4">
+						<div class="item" style="float:right; margin-right: -148px;">
+							<a href="#">
+							  <span class="notify-badge">New</span>
+								<img src="images/1.jpg" style="width:200px; height:200px;"  alt="" />
+							</a>
+							
+					  </div>
+					  <div class="item" style="float:right; margin-right: -148px;">
+							<a href="#">
+							  <span class="notify-badge">New</span>
+								<img src="images/2.jpg" style="width:200px; height:200px;"  alt="" />
+						  </a>
+					  </div>
+					  <div class="item" style="float:right; margin-right: -148px;">
+							<a href="#">
+							  <span class="notify-badge">New</span>
+								<img src="images/3.jpg" style="width:200px; height:200px;"  alt="" />
+						  </a>
+					  </div>
+					  <div class="item" style="float:right; margin-right: -148px;">
+							<a href="#">
+							  <span class="notify-badge">New</span>
+								<img src="images/4.jpg" style="width:200px; height:200px;"  alt="" />
+						  </a>
+					  </div>
+				  </div>
+		</div>
+		<!-- end #sidebar -->
+		
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end #page --> 
+	<div id="featured-content">
+		<div id="column1">
+			<h2>Maecenas luctus</h2>
+			<p><img src="images/5.jpg" width="300" height="150" alt="" /></p>
+			<p>Prix : 400 000fdj - Cité Haramous</p>
+			<p>11/11/2018</p>
+			<p class="button"><a href="#">Plus détail</a></p>
+		</div>
+		<div id="column2">
+			<h2>Fusce fringilla</h2>
+			<p><img src="images/6.jpg" width="300" height="150" alt="" /></p>
+			<p>Prix : 200 000fdj - Hodan 1</p>
+			<p>10/11/2018</p>
+			<p class="button"><a href="#">Plus détail</a></p>
+		</div>
+		<div id="column3">
+			<h2>Praesent mattis</h2>
+			<p><img src="images/7.jpg" width="300" height="150" alt="" /></p>
+			<p>Prix : 500 000fdj - Gabode 5</p>
+			<p>10/11/2018</p>
+			<p class="button"><a href="#">Plus détail</a></p>
+		</div>
+		<div id="column1">
+				<h2>Maecenas luctus</h2>
+				<p><img src="images/8.jpg" width="300" height="150" alt="" /></p>
+				<p>Prix : 600 000fdj - Gabode 5</p>
+				<p>9/11/2018</p>
+				<p class="button"><a href="#">Plus détail</a></p>
+			</div>
+			<div id="column2">
+				<h2>Fusce fringilla</h2>
+				<p><img src="images/9.jpg" width="300" height="150" alt="" /></p>
+				<p>Prix : 100 000fdj - Gabode 5</p>
+			  <p>8/11/2018</p>
+			  <p class="button"><a href="#">Plus détail</a></p>
+			</div>
+			<div id="column3">
+				<h2>Praesent mattis</h2>
+				<p><img src="images/10.jpg" width="300" height="150" alt="" /></p>
+				<p>Prix : 400 000fdj - Cité Haramous</p>
+			  <p>7/11/2018</p>
+			  <p class="button"><a href="#">Plus détail</a></p>
+			</div>
+	</div>
+</div>
+<div id="footer">
+	<p>&copy; 2018. All rights reserved. Design by <a href="#" rel="nofollow">Ali Mohamed</a>.</p>
+</div>
+<!-- end #footer -->
+<script>
+		$(window).bind("load resize slid.bs.carousel", function() {
+var imageHeight = $(".active .holder").height();
+$(".controllers").height( imageHeight );
+console.log("Slid");
+});
+	</script>
+</body>
+</html>
